@@ -1,0 +1,1 @@
+/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/bin/predict_scvi.py

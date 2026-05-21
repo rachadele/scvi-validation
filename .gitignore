@@ -1,0 +1,49 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow*
+*.nextflow.log*
+
+# Pipeline outputs
+results/
+reports/
+
+# Data files (large/generated)
+*.h5ad
+*.rds
+*.pkl
+*.bam
+*.fastq
+*.fastq.gz
+*.h5
+*.loom
+*.mtx
+*.mtx.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Secrets / credentials
+.env
+*.key
+*.pem
+credentials*
+*token*
+*.netrc
+*secret*
+*password*
