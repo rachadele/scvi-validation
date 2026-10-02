@@ -1,1 +1,1 @@
-/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/bin/get_census_adata.py
+/space/grp/rschwartz/rschwartz/annotation-benchmark/predict/bin/get_census_adata.py

@@ -42,8 +42,8 @@ def main():
 
     if args.organism == 'mus_musculus':
         original_celltypes = utils.get_original_celltypes(
-            columns_file=f"/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/meta/author_cell_annotations/{args.census_version}/original_celltype_columns.tsv",
-            author_annotations_path=f"/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/meta/author_cell_annotations/{args.census_version}"
+            columns_file=f"/space/grp/rschwartz/rschwartz/eval-references/meta/author_cell_annotations/{args.census_version}/original_celltype_columns.tsv",
+            author_annotations_path=f"/space/grp/rschwartz/rschwartz/eval-references/meta/author_cell_annotations/{args.census_version}"
         )
     else:
         original_celltypes = None

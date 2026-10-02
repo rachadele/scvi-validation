@@ -1,1 +1,1 @@
-/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/bin/predict_scvi.py
+/space/grp/rschwartz/rschwartz/annotation-benchmark/predict/bin/predict_scvi.py

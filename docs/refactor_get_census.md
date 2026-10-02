@@ -2,7 +2,7 @@
 
 ## Problem
 
-`get_census()` in `nextflow_eval_pipeline/bin/utils.py` conflates three distinct operations into one function:
+`get_census()` in `annotation-benchmark/lib/utils.py` conflates three distinct operations into one function:
 
 1. **Filter obs metadata** from CellXGene by organism, organ, disease, collections
 2. **Split and extract** — subsample and fetch embeddings independently per `split_column` value (e.g., per `dataset_title`)

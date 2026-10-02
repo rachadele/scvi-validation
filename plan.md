@@ -5,7 +5,7 @@ Assess whether the current scVI embeddings and RF classifier are producing meani
 
 ## Pipeline Context
 
-The current pipeline (`nextflow_eval_pipeline`) works as follows:
+The current pipeline (now `annotation-benchmark`) works as follows:
 
 1. **Model download** (`bin/setup.py` + `utils.setup()`): Downloads a pre-trained scVI model from CellXGene Census for the given organism and census version.
 2. **Reference preparation** (`bin/get_census_adata.py`): Fetches reference cells from Census, stores them as h5ad. Reference embeddings are pre-computed and stored in `adata.obsm["scvi"]`.

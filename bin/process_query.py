@@ -1,1 +1,1 @@
-/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/bin/process_query.py
+/space/grp/rschwartz/rschwartz/annotation-benchmark/predict/bin/process_query.py

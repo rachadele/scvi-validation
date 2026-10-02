@@ -21,7 +21,7 @@ nextflow run main.nf -params-file params.hs.json --subsample_per_dataset 50 --da
 
 ## Upstream Pipeline
 
-This pipeline is a sibling to `../nextflow_eval_pipeline`. It reuses that pipeline's Python scripts (via `params.eval_pipeline_dir`) rather than duplicating them. The MAP_QUERY, GET_CENSUS_ADATA, and RUN_SETUP modules all call scripts from `${params.eval_pipeline_dir}/bin/`.
+This pipeline is a sibling to `../annotation-benchmark`. It reuses that pipeline's Python scripts (via `params.eval_pipeline_dir`) rather than duplicating them. The MAP_QUERY, GET_CENSUS_ADATA, and RUN_SETUP modules all call scripts from `${params.eval_pipeline_dir}/bin/`.
 
 The only new scripts live in `bin/` here:
 - `embedding_coherence.py` — centroid cosine similarity (ref vs query) per cell type
@@ -48,7 +48,7 @@ CellXGene Census      ─┘→ PREPARE_REFERENCES → ref.h5ad
 |---|---|---|
 | `subsample_query` | 100 | cells sampled per query file |
 | `n_neighbors` | 15 | kNN k (also used for UMAP graph) |
-| `eval_pipeline_dir` | `/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline` | path to sibling pipeline |
+| `eval_pipeline_dir` | `/space/grp/rschwartz/rschwartz/annotation-benchmark` | path to sibling pipeline |
 
 ## Cell Type Hierarchy
 

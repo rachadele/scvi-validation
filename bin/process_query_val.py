@@ -5,7 +5,7 @@ process_query_val.py — like process_query.py but with per-dataset subsampling 
 Extra args vs the original:
   --subsample_per_dataset N   : sample N cells per unique value of --dataset_key (default: sample_id)
   --dataset_key COL           : obs column to group by for per-dataset subsampling
-  --eval_pipeline_dir PATH    : path to nextflow_eval_pipeline (to import utils.py)
+  --eval_pipeline_dir PATH    : path to annotation-benchmark (to import utils.py)
 """
 
 import argparse

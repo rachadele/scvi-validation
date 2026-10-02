@@ -1,1 +1,1 @@
-/space/grp/rschwartz/rschwartz/nextflow_eval_pipeline/bin/setup.py
+/space/grp/rschwartz/rschwartz/annotation-benchmark/predict/bin/setup.py
